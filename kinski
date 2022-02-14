@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+
+arr[0]="Du dumme Sau!"
+arr[1]="Tragt ihn raus!"
+arr[2]="Sie sind ein Anfänger! Ein Zwergenregisseur sind Sie!"
+arr[3]="Das hat er gemacht! Du dumme Sau!"
+arr[4]="Der Moment ist überhaupt gekommen, wo ich dir in die Fresse haue!"
+arr[5]="Der hier ist ein Geisteskranker. Schafft ihn weg!"
+arr[6]="Leck mich doch am Arsch, Mensch!"
+
+rand=$[$RANDOM % ${#arr[@]}]
+cowsay -f kinski ${arr[$rand]}
