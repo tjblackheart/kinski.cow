@@ -8,4 +8,6 @@ Do you know that feeling when you have to forcefully kill a process because it h
 5. ...
 6. Profit! The next time you have to `kill -9` an annoying process, throw kinski after it! `kill -9 $PID; kinski`
 
-Well, it's the small things. Long live cowsay!
+![Preview](preview.png)
+
+Well, it's the small things. Long live cowsay.
